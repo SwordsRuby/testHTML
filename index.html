@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>АРТМИР</title>
+</head>
+
+<body>
+
+    <!-- Intro Zone -->
+    <div class="intro-zone" id="intro">
+        <div class="intro-content">
+            <h1 class="intro-title"><span class="title-span1">АРТМИР</span> <span class="title-span2">ЦИФРОВОЕ</span>
+                <span class="title-span3">ИСКУССТВО</span></h1>
+            <p class="intro-description">
+                Отправляйте, коллекционируйте и торгуйте цивилизации цифровым искусством
+            </p>
+        </div>
+
+        <!-- Banner Slider -->
+        <div class="banner-slider">
+            <div class="slider-container">
+                <div class="slider-item">
+                    <img src="image/NFT16.jpg" alt="NFT">
+                    <div class="slider-overlay">
+                        <div class="slider-text">
+                            Эксклюзивные NFT
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="image/NFT14.jpg" alt="NFT">
+                    <div class="slider-overlay">
+                        <div class="slider-text">
+                            Цифровое искусство
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="image/NFT11.webp" alt="NFT">
+                    <div class="slider-overlay">
+                        <div class="slider-text">
+                            метавселенная
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Убрана стрелка scroll-indicator -->
+
+        <div class="gradient-overlay"></div>
+    </div>
+
+    <!-- Visual Story -->
+    <div class="visual-story" id="visual-story">
+        <div class="section-header">
+            <h2 class="section-title">Наша история</h2>
+            <p class="section-subtitle">
+                Путешествие сквозь эволюцию цифрового искусства
+            </p>
+        </div>
+
+        <div class="story-container">
+            <div class="story-panel active" data-panel="1">
+                <img src="image/NFT12.jfif" alt="NFT">
+                <div class="story-overlay"></div>
+                <div class="story-content">
+                    <h3>Начало</h3>
+                    <p>
+                        Там, где цифровое искусство встречается с технологией блокчейн. Каждое произведение рассказывает
+                        историю творчества и инноваций.
+                    </p>
+                </div>
+            </div>
+
+            <div class="story-panel" data-panel="2">
+                <img src="image/NFT1.jpg" alt="NFT">
+
+                <div class="story-overlay"></div>
+                <div class="story-content">
+                    <h3>Видение</h3>
+                    <p>
+                        Даём возможность художникам со всего мира демонстрировать свои работы в метавселенной.
+                        Присоединяйтесь к революции цифрового владения.
+                    </p>
+                </div>
+            </div>
+
+            <div class="story-panel" data-panel="3">
+                <img src="image/NFT7.jpg" alt="NFT">
+
+                <div class="story-overlay"></div>
+                <div class="story-content">
+                    <h3>Будущее</h3>
+                    <p>
+                        Почувствуйте коллекционирование искусства следующего поколения. Погрузитесь в мир, где
+                        творчество не знает границ.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="story-nav">
+            <button class="nav-btn" id="prev-btn">
+                <svg class="icon" viewBox="0 0 24 24" style="color: white;">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+
+            <div class="indicators">
+                <div class="indicator active" data-index="0"></div>
+                <div class="indicator" data-index="1"></div>
+                <div class="indicator" data-index="2"></div>
+            </div>
+
+            <button class="nav-btn" id="next-btn">
+                <svg class="icon" viewBox="0 0 24 24" style="color: white;">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Interactive Gallery -->
+    <div class="gallery" id="gallery">
+        <div class="section-header">
+            <h2 class="section-title">Интерактивная галерея</h2>
+            <p class="section-subtitle">
+                Исследуйте нашу коллекцию цифровых шедевров
+            </p>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- card -->
+            <div class="gallery-item">
+                <img src="image/NFT10.jpg" alt="NFT">
+                <div class="gallery-overlay">
+                    <div>
+                        <span class="badge">Рекомендуем</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Nyan Cat</h3>
+                        <p class="artist">
+                            автор Крис Торрес
+                        </p>
+                        <div class="gallery-stats">
+                            <span class="price">2.5 ETH</span>
+                            <div class="stats">
+                                <span>♥ 234</span>
+                                <span>👁 1250</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+
+            <!-- card -->
+            <div class="gallery-item">
+                <img src="image/NFT7.jpg" alt="NFT">
+                <div class="gallery-overlay">
+                    <div>
+                        <span class="badge">Рекомендуем</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Everydays – The First 5000 Days</h3>
+                        <p class="artist">
+                            автор Майк Винкельманн
+                        </p>
+                        <div class="gallery-stats">
+                            <span class="price">1.9 ETH</span>
+                            <div class="stats">
+                                <span>♥ 234</span>
+                                <span>👁 1250</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+
+            <!-- card -->
+            <div class="gallery-item">
+                <img src="image/NFT11.webp" alt="NFT">
+                <div class="gallery-overlay">
+                    <div>
+                        <span class="badge">Рекомендуем</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Metarift </h3>
+                        <p class="artist">
+                            автор Pak
+                        </p>
+                        <div class="gallery-stats">
+                            <span class="price">4.0 ETH</span>
+                            <div class="stats">
+                                <span>♥ 234</span>
+                                <span>👁 1250</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+
+            <!-- card -->
+            <div class="gallery-item">
+                <img src="image/NFT2.jpeg" alt="NFT">
+                <div class="gallery-overlay">
+                    <div>
+                        <span class="badge">Рекомендуем</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Forever Rose</h3>
+                        <p class="artist">
+                            автор Кевин Эбош
+                        </p>
+                        <div class="gallery-stats">
+                            <span class="price">3.5 ETH</span>
+                            <div class="stats">
+                                <span>♥ 234</span>
+                                <span>👁 1250</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+
+            <!-- card -->
+            <div class="gallery-item">
+                <img src="image/NFT5.jpg" alt="NFT">
+                <div class="gallery-overlay">
+                    <div>
+                        <span class="badge">Рекомендуем</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Crossroads</h3>
+                        <p class="artist">
+                            автор Майк Винкельманн
+                        </p>
+                        <div class="gallery-stats">
+                            <span class="price">2.5 ETH</span>
+                            <div class="stats">
+                                <span>♥ 234</span>
+                                <span>👁 1250</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+
+            <!-- card -->
+            <div class="gallery-item">
+                <img src="image/NFT13.jpg" alt="NFT">
+                <div class="gallery-overlay">
+                    <div>
+                        <span class="badge">Рекомендуем</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Bored Ape Yacht Club - Мультивселенная</h3>
+                        <p class="artist">
+                            автор Yuga Labs
+                        </p>
+                        <div class="gallery-stats">
+                            <span class="price">3.2 ETH</span>
+                            <div class="stats">
+                                <span>♥ 234</span>
+                                <span>👁 1250</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+        </div>
+    </div>
+
+    <!-- Creative Showcase -->
+    <div class="showcase" id="showcase">
+        <div class="section-header">
+            <h2 class="section-title">Творческая витрина</h2>
+            <p class="section-subtitle">
+                Празднуем совершенство в цифровом искусстве
+            </p>
+        </div>
+
+        <div class="showcase-grid">
+            <div class="showcase-item">
+                <img src="image/author.jpg"
+                    alt="Избранный художник">
+                <div class="showcase-overlay"></div>
+                <div class="showcase-icon">
+                    <svg class="icon" viewBox="0 0 24 24" style="color: white;">
+                        <path d="M12 15l-4-4h8l-4 4z" />
+                        <circle cx="12" cy="8" r="3" />
+                    </svg>
+                </div>
+                <div class="showcase-content">
+                    <p class="showcase-subtitle">
+                        Художник месяца
+                    </p>
+                    <h3>Beeple</h3>
+                    <div class="showcase-stat">
+                        <span class="value">5 k +</span>
+                        <span class="label">Изображений</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase-item">
+                <img src="image/NFT15.jpg"
+                    alt="В тренде">
+                <div class="showcase-overlay"></div>
+                <div class="showcase-icon">
+                    <svg class="icon" viewBox="0 0 24 24" style="color: white;">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+                        <polyline points="17 6 23 6 23 12" />
+                    </svg>
+                </div>
+                <div class="showcase-content">
+                    <p class="showcase-subtitle">
+                        Самое популярное
+                    </p>
+                    <h3>Bored Ape Yacht Club - Годжо Сатору</h3>
+                    <div class="showcase-stat">
+                        <span class="value">2.5k</span>
+                        <span class="label">Просмотров сегодня</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase-item">
+                <img src="image/coolation.webp"
+                    alt="Выбор сообщества">
+                <div class="showcase-overlay"></div>
+                <div class="showcase-icon">
+                    <svg class="icon" viewBox="0 0 24 24" style="color: white;">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                </div>
+                <div class="showcase-content">
+                    <p class="showcase-subtitle">
+                        По выбору коллекционеров
+                    </p>
+                    <h3>Bored Ape Yacht Club</h3>
+                    <div class="showcase-stat">
+                        <span class="value">890</span>
+                        <span class="label">Голосов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">
+                        10,000+
+                    </div>
+                    <div class="stat-label">
+                        Всего произведений
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">
+                        2,500+
+                    </div>
+                    <div class="stat-label">
+                        Активных художников
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+                            <polyline points="17 6 23 6 23 12" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">
+                        50k ETH
+                    </div>
+                    <div class="stat-label">
+                        Общий объём продаж
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <circle cx="12" cy="8" r="7" />
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">
+                        15,000+
+                    </div>
+                    <div class="stat-label">
+                        Довольных коллекционеров
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Impact -->
+    <div class="final-impact" id="final">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+
+        <div class="final-content">
+            <div class="badge-animated">
+                <svg class="badge-icon icon" viewBox="0 0 24 24">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <span>Присоединяйтесь к нам</span>
+            </div>
+
+            <h2 class="final-title">Начните своё NFT путешествие</h2>
+            <p class="final-subtitle">
+                Присоединяйтесь к тысячам коллекционеров и создателей в будущем цифрового искусства. Будьте первыми, кто
+                откроет эксклюзивные релизы и коллаборации художников.
+            </p>
+
+            <form class="newsletter-form" onsubmit="return false;">
+                <input type="email" class="email-input" placeholder="Введите ваш email" required>
+                <button type="submit" class="subscribe-btn">Подписаться →</button>
+                <p class="form-hint">
+                    Получайте эксклюзивные обновления о новых релизах, художниках и событиях сообщества.
+                </p>
+            </form>
+
+            <div class="social-links">
+                <p>
+                    Свяжитесь с нами
+                </p>
+                <div class="social-icons">
+                    <div class="social-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <path
+                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                        </svg>
+                    </div>
+                    <div class="social-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </div>
+                    <div class="social-icon">
+                        <svg class="icon" viewBox="0 0 24 24" style="color: var(--purple-400);">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="#gallery" class="btn-primary">Смотреть галерею</a>
+                <a href="#" class="btn-secondary">Стать создателем</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                © 2025 АРТМИР. Все права защищены. Создано с любовью к цифровому искусству.
+            </p>
+        </div>
+    </div>
+    <script src="main.js" type="text/javascript" charset="utf-8">
+
+    </script>
+</body>
+
+</html>
